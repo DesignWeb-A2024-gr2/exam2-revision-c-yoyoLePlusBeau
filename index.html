@@ -9,6 +9,7 @@
 
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/formulaire.css">
+        <script defer src="./script.js"></script>
         
     </head>
 
@@ -20,7 +21,7 @@
 
                 <h1 id="titre_formulaire">Fiche de dégustation</h1>
 
-                <form id="fiche_degustation">
+                <form id="fiche_degustation" method="post" action="./action.html" onsubmit="return Validation()">
 
                     <div class="ligne_formulaire">
                         <label for='nom_biere'>Nom de la bière</label>
